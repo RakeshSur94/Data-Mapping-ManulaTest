@@ -5,8 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.6.3</version>
+		<relativeah/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.datamapping</groupId>
 	<artifactId>DataMapping-ManulaUserTest</artifactId>
@@ -52,15 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>2.5</version> <!-- Downgrade to a compatible version -->
-        </plugin>
-    </plugins>
-</build>
+	
 
 
 
